@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --fundo-cinza: #cccccc;
+    --fundo-branco: #f1eded;
+    --vermelho-strong: #F0180C;
+}
+
+body {
+    background-color: var(--fundo-cinza);
+}
+
+strong {
+    color: var(--vermelho-strong);
+}
+
+.cabecalho {
+    font-size: 35px;
+    font-family: 'Bebas Neue' , sans-serif;
+    background-color: var(--fundo-branco);
+}
+
+.cabecalho__titulo {
+    padding-left: 20px;
+}
+
+.barbearia {
+    background-color: var(--fundo-branco);
+}
+
+.imagem__barbearia {
+    width: 100%;
+}
+
+.texto__barbearia {
+    text-align: center;
+    padding: 30px;
+}
+
+.titulo {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'inter' , sans-serif;
+    margin: 30px;
+}
+
+.paragrafos {
+    text-align: center;
+    padding: 25px;
+}
+
+.segundo__paragrafo {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'inter' , sans-serif;
+}
+
+.texto__itens_barbearia {
+    background-color: var(--fundo-branco);
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: 'inter' , sans-serif;
+    padding: 25px;
+}
+
+.lista__itens {
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    padding: 20px;
+
+}
+
+
+.imagem__beneficios {
+    width: 50%;
+}
